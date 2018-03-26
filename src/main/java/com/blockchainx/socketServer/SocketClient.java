@@ -55,6 +55,9 @@ public class SocketClient extends Thread{
             outputStream.write(message.getBytes("UTF-8"));
             outputStream.flush();
 
+
+            //socket.getInputStream().read();
+
             socket.close();
 
 
